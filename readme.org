@@ -1,0 +1,16 @@
+A sample CrowdAnki =deck.json= to help investigate a possible bug.
+
+* To reproduce:
+
+1. Import this deck with CrowdAnki.
+
+=CrowdAnki: Import git repository= > =https://github.com/aplaice/crowdanki_deck_config_export_test=.
+
+2. Change the deck's options group, say to =Default=.
+
+3. Export the deck with CrowdAnki.
+
+4. Import the exported deck with CrowdAnki. (=CrowdAnki: Import from disk=)
+
+(Interestingly, it's not even necessary to start a fresh profile before *4*! This is presumably because in =crowd-anki/representation/deck.py:173=, we only care about the deck configs present in the CrowdAnki JSON.)
+
