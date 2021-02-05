@@ -4,7 +4,7 @@ A sample CrowdAnki =deck.json= to help investigate a possible bug.
 
 1. Import this deck with CrowdAnki.
 
-=CrowdAnki: Import git repository= > =https://github.com/aplaice/crowdanki_deck_config_export_test=.
+   =CrowdAnki: Import git repository= > =https://github.com/aplaice/crowdanki_deck_config_export_test=.
 
 2. Change the deck's options group, say to =Default=.
 
